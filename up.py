@@ -1,4 +1,3 @@
-#@PLUSTM
 import telebot
 from telebot import types
 from telebot import util
@@ -59,7 +58,7 @@ def te(m):
 def te(m):
    bot.send_message(m.chat.id,' /feedback [TEXT]\n\n \xE2\x9C\x8Csend your message For YONES\xE2\x9C\x8C')
 
-# Uploader Bot By @plustm
+
 
 @bot.message_handler(commands=['stats'])
 def m(m):
@@ -69,7 +68,6 @@ def m(m):
           em = redis.scard('msgs')
           bot.send_message(m.chat.id,'*Files Uploaded:* _{}_\n*Users:* _{}_\n*All Messages:* _{}_'.format(file,msm,em),parse_mode='Markdown')
 
-# Uploader Bot By @PLUSTM
 
 @bot.message_handler(content_types=['video','photo','sticker','document','audio','voice'])
 def all(m):
