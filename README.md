@@ -1,8 +1,6 @@
-# PLUSTEAM
-_TELEGRAM_ **UPLODER(API) BOT:)**
-------------------------------------------------------
-[PlusTM](https://telegram.me/plustm)
-------------------------------------------------------
+
+
+
 **Install CODES**
 
 1 : $ pip install pyTelegramBotAPI
